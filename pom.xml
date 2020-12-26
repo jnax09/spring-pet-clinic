@@ -48,4 +48,8 @@
         </plugins>
     </build>
 
+    <scm>
+         <developerConnection>scm:git:git@github.com:jnax09/spring-pet-clinic.git</developerConnection>
+    </scm>
+
 </project>
