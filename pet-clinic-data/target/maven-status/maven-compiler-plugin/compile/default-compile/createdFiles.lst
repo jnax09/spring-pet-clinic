@@ -1,5 +1,14 @@
+jonas/springframework/springpetclinic/map/VetServiceMap.class
+jonas/springframework/springpetclinic/map/OwnerServiceMap.class
+jonas/springframework/springpetclinic/map/AbstractMapService.class
+jonas/springframework/springpetclinic/map/PetServiceMap.class
+jonas/springframework/springpetclinic/model/BaseEntity.class
+jonas/springframework/springpetclinic/model/Person.class
+jonas/springframework/springpetclinic/services/CrudService.class
+jonas/springframework/springpetclinic/services/PetService.class
 jonas/springframework/springpetclinic/model/Vet.class
+jonas/springframework/springpetclinic/services/VetService.class
 jonas/springframework/springpetclinic/model/PetType.class
 jonas/springframework/springpetclinic/model/Pet.class
 jonas/springframework/springpetclinic/model/Owner.class
-jonas/springframework/springpetclinic/model/Person.class
+jonas/springframework/springpetclinic/services/OwnerService.class
