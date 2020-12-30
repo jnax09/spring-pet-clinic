@@ -1,11 +1,13 @@
 package jonas.springframework.springpetclinic.map;
 
 import jonas.springframework.springpetclinic.model.Speciality;
-import jonas.springframework.springpetclinic.services.SpecialtiesService;
+import jonas.springframework.springpetclinic.services.SpecialtyService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class SpecialtiesServiceMap extends AbstractMapService<Speciality, Long> implements SpecialtiesService {
+@Service
+public class SpecialtyServiceMap extends AbstractMapService<Speciality, Long> implements SpecialtyService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
