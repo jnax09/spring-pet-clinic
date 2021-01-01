@@ -2,7 +2,6 @@ package jonas.springframework.springpetclinic.map;
 
 import jonas.springframework.springpetclinic.model.Owner;
 import jonas.springframework.springpetclinic.model.Pet;
-import jonas.springframework.springpetclinic.model.PetType;
 import jonas.springframework.springpetclinic.services.OwnerService;
 import jonas.springframework.springpetclinic.services.PetService;
 import jonas.springframework.springpetclinic.services.PetTypeService;
