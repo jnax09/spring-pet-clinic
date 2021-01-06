@@ -2,6 +2,7 @@ jonas/springframework/springpetclinic/repositories/PetRepository.class
 jonas/springframework/springpetclinic/springdatajpa/SpecialtySDJpaService.class
 jonas/springframework/springpetclinic/repositories/VisitRepository.class
 jonas/springframework/springpetclinic/map/AbstractMapService.class
+jonas/springframework/springpetclinic/model/Speciality$SpecialityBuilder.class
 jonas/springframework/springpetclinic/services/SpecialtyService.class
 jonas/springframework/springpetclinic/repositories/SpecialtyRepository.class
 jonas/springframework/springpetclinic/map/PetMapService.class
@@ -15,12 +16,16 @@ jonas/springframework/springpetclinic/repositories/VetRepository.class
 jonas/springframework/springpetclinic/services/PetService.class
 jonas/springframework/springpetclinic/model/Vet.class
 jonas/springframework/springpetclinic/springdatajpa/PetTypeSDJpaService.class
+jonas/springframework/springpetclinic/model/Visit$VisitBuilder.class
 jonas/springframework/springpetclinic/springdatajpa/PetSDJpaService.class
 jonas/springframework/springpetclinic/springdatajpa/VisitSDJpaService.class
 jonas/springframework/springpetclinic/model/Speciality.class
 jonas/springframework/springpetclinic/services/VisitService.class
 jonas/springframework/springpetclinic/map/SpecialtyMapService.class
 jonas/springframework/springpetclinic/map/PetTypeMapService.class
+jonas/springframework/springpetclinic/model/Vet$VetBuilder.class
+jonas/springframework/springpetclinic/model/PetType$PetTypeBuilder.class
+jonas/springframework/springpetclinic/model/Pet$PetBuilder.class
 jonas/springframework/springpetclinic/springdatajpa/VetSDJpaService.class
 jonas/springframework/springpetclinic/model/BaseEntity.class
 jonas/springframework/springpetclinic/repositories/PetTypeRepository.class
@@ -31,4 +36,5 @@ jonas/springframework/springpetclinic/model/PetType.class
 jonas/springframework/springpetclinic/model/Pet.class
 jonas/springframework/springpetclinic/springdatajpa/OwnerSDJpaService.class
 jonas/springframework/springpetclinic/model/Owner.class
+jonas/springframework/springpetclinic/model/Owner$OwnerBuilder.class
 jonas/springframework/springpetclinic/services/OwnerService.class

@@ -38,8 +38,8 @@ public class VetMapService extends AbstractMapService<Vet, Long> implements VetS
     public Vet save(Vet object) {
         // defensive coding
         // in case the vet object has a speciality that has not been persisted and therefore does not have an id
-        if(object.getSpecialities().size() > 0) {
-            object.getSpecialities().forEach(speciality -> {
+        if(object.getSpecialties().size() > 0) {
+            object.getSpecialties().forEach(speciality -> {
                 if(speciality.getId() == null) {
                     Speciality savedSpeciality = specialtyService.save(speciality); // That would create an id on the specialty
                     speciality.setId(savedSpeciality.getId());
