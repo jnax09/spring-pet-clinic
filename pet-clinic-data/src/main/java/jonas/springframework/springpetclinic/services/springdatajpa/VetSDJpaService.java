@@ -1,4 +1,4 @@
-package jonas.springframework.springpetclinic.springdatajpa;
+package jonas.springframework.springpetclinic.services.springdatajpa;
 
 import jonas.springframework.springpetclinic.model.Vet;
 import jonas.springframework.springpetclinic.repositories.VetRepository;

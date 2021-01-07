@@ -1,4 +1,4 @@
-package jonas.springframework.springpetclinic.map;
+package jonas.springframework.springpetclinic.services.map;
 
 import jonas.springframework.springpetclinic.model.Visit;
 import jonas.springframework.springpetclinic.services.VisitService;

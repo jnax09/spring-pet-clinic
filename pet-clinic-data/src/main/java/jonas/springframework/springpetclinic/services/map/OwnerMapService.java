@@ -1,4 +1,4 @@
-package jonas.springframework.springpetclinic.map;
+package jonas.springframework.springpetclinic.services.map;
 
 import jonas.springframework.springpetclinic.model.Owner;
 import jonas.springframework.springpetclinic.model.Pet;
@@ -69,6 +69,17 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Owner findByLastName(String lastName) {
-        return null;
+        return this.findAll()
+                .stream()
+                .filter(owner -> owner.getLastName().equalsIgnoreCase(lastName))
+                .findFirst()
+                .orElse(null);
     }
+
+//    @Override
+//    public List<Owner> findAllByLastNameLike(String lastName) {
+//
+//        //todo - impl
+//        return null;
+//    }
 }
