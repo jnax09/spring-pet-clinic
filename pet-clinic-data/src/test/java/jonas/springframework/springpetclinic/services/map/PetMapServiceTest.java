@@ -58,8 +58,8 @@ class PetMapServiceTest {
         Pet pet2 = Pet.builder().id(id).build();
         Pet savedPet = petMapService.save(pet2);
 
-        assertEquals(2L, savedPet.getId()); // Why ?
-        assertEquals(2, petMapService.findAll().size());
+        assertEquals(1L, savedPet.getId()); // Why ?
+        assertEquals(1, petMapService.findAll().size());
     }
 
     @Test
