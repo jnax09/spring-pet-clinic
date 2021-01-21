@@ -1,2 +1,4 @@
 jonas/springframework/springpetclinic/SpringPetClinicApplicationTests.class
+jonas/springframework/springpetclinic/controllers/PetControllerTest.class
+jonas/springframework/springpetclinic/controllers/VisitControllerTest.class
 jonas/springframework/springpetclinic/controllers/OwnerControllerTest.class

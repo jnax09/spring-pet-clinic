@@ -1,5 +1,9 @@
 jonas/springframework/springpetclinic/controllers/OwnerController.class
 jonas/springframework/springpetclinic/bootstrap/DataLoader.class
+jonas/springframework/springpetclinic/controllers/VisitController.class
 jonas/springframework/springpetclinic/controllers/IndexController.class
 jonas/springframework/springpetclinic/controllers/VetController.class
+jonas/springframework/springpetclinic/formatters/PetTypeFormatter.class
+jonas/springframework/springpetclinic/controllers/PetController.class
 jonas/springframework/springpetclinic/SpringPetClinicApplication.class
+jonas/springframework/springpetclinic/controllers/VisitController$1.class
